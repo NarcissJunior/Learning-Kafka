@@ -20,6 +20,7 @@ Consumidores se inscrevem nesses tópicos e podem consumir (sem excluir) essas m
 Tendo isso em mente, podemos partir para os conceitos para que o entendimento fique mais claro.
 
 Mensagens:
+<br>
 A mensagem é o principal recurso do Kafka. Todo o fluxo acima pode ser resumido à estas mensagens que são enviadas.
 As mensagens podem sem ser de vários tipos de dados, por exemplo, uma string pura ou um json com informações de um objeto.
 É necessário ter em mente que diferentes tipos de dados, precisam de diferentes conversões para que o kafka possa ser capaz de lidar com as mensagens.
